@@ -1,4 +1,5 @@
-# easy_as_lfi
+# EASY AS LFI! 
+## Automated Local File Inclusion Discovery
 
 Local File Inclusion occurs when an attacker can trick a web application to include files on the web server that should be innaccessible. It occurs when a developer fails to sanitized user input and allows the inclusion of any page. 
 
