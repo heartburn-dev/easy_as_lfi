@@ -17,8 +17,6 @@ The website must be vulnerable to the php://filter to use the base64 setting.
 python3 easy_as_lfi.py b64 file /etc/passwd
 ```
 
-![image](https://user-images.githubusercontent.com/59886240/121221928-f7df3600-c87d-11eb-91d1-56cf142e2dc8.png)
-
 ```bash
 python3 easy_as_lfi.py b64 woordlist common_files.txt
 ```
