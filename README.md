@@ -18,7 +18,7 @@ python3 easy_as_lfi.py b64 file /etc/passwd
 ```
 
 ```bash
-python3 easy_as_lfi.py b64 woordlist common_files.txt
+python3 easy_as_lfi.py b64 wordlist common_files.txt
 ```
 ![image](https://user-images.githubusercontent.com/59886240/121222307-56a4af80-c87e-11eb-8a40-f91024c33a4a.png)
 
